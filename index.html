@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" id="page">
+      <div id="logo"></div>
+      <div>
+        <div class="line1">
+          <div class="z">
+            <label for="ph" id="a">CARD NUMBER</label> <br />
+            <input
+              id="ph"
+              class="a"
+              type="number"
+              placeholder="3459 5403 3523 9458"
+              onblur="b()"
+            />
+          </div>
+
+          <div>
+            <label for="cvv">CVV</label> <br />
+            <input
+              id="cvv"
+              class="b"
+              type="number"
+              maxlength="3"
+              placeholder="345"
+            />
+          </div>
+        </div>
+        <div class="line2">
+          <label for="hname">CARD HOLDER NAME</label> <br />
+          <input
+            id="hname"
+            class="c"
+            type="text"
+            placeholder="mansard fornesca"
+          />
+        </div>
+        <div class="line3">
+          <label for="edate">EXPIRATION DATE</label>
+          <div id="edate">
+            <input
+              type="number"
+              id="edate"
+              class="d"
+              placeholder="DD"
+              disabled
+            />
+
+            <input type="number" id="edate" class="e" placeholder="MM" />
+            <input type="number" id="edate" class="f" placeholder="YYYY" />
+          </div>
+        </div>
+      </div>
+      <div class="line4"><button class="btn">PAY</button></div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-left: 5em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to right, rgb(148, 148, 54), rgb(57, 57, 133));
+}
+
+input {
+  margin-top: 1em;
+  background-color: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+label {
+  font-weight: 700;
+}
+#page {
+  margin: 0 auto;
+  padding-top: 3em;
+  background-color: white;
+  width: 20em;
+  height: 33em;
+  margin-top: 3em;
+  border-radius: 5px;
+}
+
+.line1,
+.line2,
+.line3 {
+  margin: 0 auto;
+  padding: 1em 1em;
+  width: 18em;
+}
+
+.line1 {
+  width: 17.8em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.a {
+  width: 13em;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.b {
+  width: 4em;
+  text-align: center;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+}
+.c {
+  width: 17em;
+  padding-left: 1em;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+.d {
+  width: 4em;
+  text-align: center;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+}
+.e {
+  width: 8.7em;
+  text-align: center;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+}
+.f {
+  width: 6em;
+  text-align: center;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+}
+
+.line4 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.btn {
+  width: 17em;
+  height: 3em;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+  color: aqua;
+  font-weight: 900;
+}
+
+.active {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+}
